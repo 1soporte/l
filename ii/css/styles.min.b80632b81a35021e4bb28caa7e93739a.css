@@ -1,0 +1,148 @@
+.legacy-browser{display:none}
+html[data-useragent*='MSIE'] .homepage-loading{display:none !important}
+html[data-useragent*='MSIE'] .homepage-loaded{display:none !important}
+html[data-useragent*='MSIE'] .legacy-browser{display:block !important}
+html[data-useragent*='MSIE'] #amex-header,html[data-useragent*='MSIE'] #amex-footer{display:none !important}
+.legacy-content-authoring .legacy-browser{display:block}
+.homepage-loading{display:flex;height:345px}
+@media(max-width:767px){.carousel-loading{display:flex;height:370px}
+}
+.progress-circle.progress-indeterminate{margin:0 auto}
+.homepage-loaded{display:none}
+.productnav .pn-rounded-t-edge{border-top-left-radius:4px;border-top-right-radius:4px}
+.productnav .pn-rounded-b-edge{border-bottom-left-radius:4px;border-bottom-right-radius:4px}
+@media(max-width:767px){.productnav .product-nav-items3{height:80px}
+}
+@media(min-width:768px){.productnav .product-nav-items3{height:190px}
+}
+@media(max-width:767px){.productnav .product-nav-items4{height:80px}
+}
+@media(min-width:768px){.productnav .product-nav-items4{height:142.5px}
+}
+@media(max-width:767px){.productnav .product-nav-items5{height:56px}
+}
+@media(min-width:768px){.productnav .product-nav-items5{height:114px}
+}
+@media(max-width:767px){.productnav .product-nav-items6{height:56px}
+}
+@media(min-width:768px){.productnav .product-nav-items6{height:95px}
+}
+@media(min-width:768px){.productnav .icon-md{font-size:3rem}
+}
+@media(min-width:768px){.productnav .icon-md:before{font-size:3rem}
+}
+@media(max-width:767px){.productnav .product-nav-item-content{display:flex !important;align-items:center !important}
+}
+@media(max-width:767px){.productnav .product-nav-item-content .dls-card{min-width:79px}
+}
+@media(max-width:767px){.productnav .product-nav-item-content .dls-gray-06-sm{color:#333 !important}
+}
+@media(min-width:768px){.productnav .product-nav-item-content-56{display:flex !important;align-items:center !important}
+}
+@media(max-width:767px){.productnav .product-nav-sm-card{height:35.95px;width:57.75px}
+}
+.productnav .product-nav-card{width:58px;height:36px}
+.productnav a:hover{text-decoration:none;background-color:#f7f8f9}
+.productnav .icon{display:unset}
+@media(min-width:768px){.homepage-hero{min-height:570px !important;max-height:570px !important}
+}
+.homepage-hero .hero{position:relative;min-height:inherit}
+@media(max-width:767px){.homepage-hero .hero{text-align:center}
+}
+.homepage-hero .hero-bg{background-position:center !important}
+.homepage-hero .overlay-black:before{background:linear-gradient(90deg,#000 0,transparent 90%);border-radius:inherit}
+@media(max-width:767px){.homepage-hero .overlay-black:before{background:linear-gradient(90deg,#000,#000)}
+}
+.homepage-hero .overlay-blue:before{background:linear-gradient(90deg,#00175a 0,transparent 90%);border-radius:inherit}
+@media(max-width:767px){.homepage-hero .overlay-blue:before{background:linear-gradient(90deg,#00175a,#00175a)}
+}
+.homepage-hero .overlay-grey:before{background:linear-gradient(90deg,#f7f8f9 0,transparent 90%);border-radius:inherit}
+@media(max-width:767px){.homepage-hero .overlay-grey:before{background:linear-gradient(90deg,#f7f8f9,#f7f8f9)}
+}
+.homepage-hero .hero-rounded-edge{border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px}
+.homepage-hero .homepage-hero-content{position:static}
+@media(min-width:768px){.homepage-hero .homepage-hero-content{flex:0 0 64%;max-width:64%}
+}
+.homepage-hero .homepage-hero-content .hp-card-img{height:60px}
+.homepage-hero .homepage-hero-content .hp-tagline-img{width:203px;height:25px}
+.homepage-hero .stack>:not(:last-child){margin-bottom:15px}
+.promocard{max-height:275px}
+.promocard .promo-card-anchor{text-decoration:none !important;width:100%}
+.promocard .promo-card-anchor .promocrad-bgimage{height:130px}
+.promocard .promo-card-anchor .promocrad-bgimage .rounded-edge-t{border-top-left-radius:4px;border-top-right-radius:4px}
+.promocard .promo-card-anchor .promocrad-bgimage .rounded-edge-t .promo-card-img{height:60px}
+.promocard .promo-card-anchor .promocrad-bgimage .rounded-edge-t .promo-img{object-fit:cover;height:130px;width:100%;border-top-left-radius:4px;border-top-right-radius:4px}
+.promocard .promo-card-anchor .promocrad-bgimage .promocard-cardart{height:60px;width:fit-content}
+.promocard .promo-card-anchor .promocrad-bgimage .promocard-cardart img{height:60px}
+@media(min-width:1024px) and (max-width:1279px){.promocard .promo-card-anchor .promocrad-bgimage .promo-img-crop-sides{object-position:center}
+}
+@media(min-width:1024px) and (max-width:1279px){.promocard .promo-card-anchor .promocrad-bgimage .promo-img-crop-left{object-position:right}
+}
+@media(min-width:1024px) and (max-width:1279px){.promocard .promo-card-anchor .promocrad-bgimage .promo-img-crop-right{object-position:left}
+}
+.promocard .promo-card-anchor .promocard-text{height:145px;overflow:hidden}
+.promocard .promo-card-anchor .promocard-text .promocard-subheader{max-height:65px;overflow:hidden;min-height:60px}
+@media(min-width:1280px){.promocard .promo-card-anchor .promocard-text .promocard-subheader{font-size:20px;line-height:26px}
+}
+.promocard .promo-card-anchor .promocard-text .hp-border-gray-06{border-top:.0625rem solid #333 !important}
+.promocard .promo-card-anchor .rounded-edge-b{border-bottom-left-radius:4px;border-bottom-right-radius:4px}
+.promocard .promo-card-anchor .dls-gray-02-bg :hover{background-color:#dfdfdf !important}
+.promocard .promo-card-anchor .dls-gray-05-bg :hover{background-color:#47494d !important}
+.promocard .promo-card-anchor :hover+.dls-gray-02-bg{background-color:#dfdfdf !important}
+.promocard .promo-card-anchor :hover+.dls-gray-05-bg{background-color:#47494d !important}
+.csr-banner-container{min-height:300px;position:relative}
+.csr-banner-container .banner-clickable :hover{text-decoration:none}
+.csr-banner-container .csr-text-container .row .csr-text-div{min-height:300px}
+.appbanner{position:absolute;left:0;top:61px;display:none;border-bottom:1px solid #e8e8e8;width:100%;height:69px;font-family:'Helvetica Medium',Arial,'Lucida Grande',sans-serif;background:#f2f3f3;z-index:9998;-webkit-font-smoothing:antialiased;overflow:hidden;-webkit-text-size-adjust:none;font-size:16px;position:sticky}
+@media(min-width:1024px){.appbanner{display:none}
+}
+.appbanner .appbanner__container{margin:0 auto}
+.appbanner .appbanner__container .appbanner__close{background:url('../../../../content/dam/amex/common/mobile-banner-icon.png') no-repeat 0 -23px;position:absolute;left:7px;top:28px;display:block;width:15px;height:15px;border:0}
+.appbanner .appbanner__container .appbanner__close :hover,.appbanner .appbanner__container .appbanner__close :active{color:#aaa}
+.appbanner .appbanner__container .appbanner__icon{position:absolute;left:22px;top:6px;display:block;width:57px;height:57px;background-size:cover;border-radius:15px;margin-left:5px;box-shadow:0 1px 3px rgba(0,0,0,0.3);background:url('../../../../content/dam/amex/common/mobile-banner-icon.png') no-repeat -21px 0}
+.appbanner .appbanner__container .appbanner-button{position:absolute;right:15px;top:23px;border:0;padding:0 10px;width:37px;height:27px;font-size:16px;line-height:24px;text-align:center;font-weight:normal;color:#0f73fc;text-decoration:none}
+.appbanner .appbanner__container .appbanner-button :hover,.appbanner .appbanner__container .appbanner-button :active{color:#6a6a6a}
+.appbanner .appbanner__container .appbanner__info{position:absolute;left:95px;top:10px;width:45%;line-height:1em;font-weight:normal;color:#333}
+.appbanner .appbanner__container .appbanner__info .appbanner__title{font-size:.875em;color:#252626;line-height:18px;font-weight:normal}
+.appbanner .appbanner__container .appbanner__info .appbanner__author{font-size:.75em}
+.appbanner .appbanner__container .appbanner__info .appbanner__store{font-size:.75em}
+.appbanner_android{background:#f2f2f2;box-shadow:none;font-family:'Roboto Medium',sans-serif}
+.appbanner_android .appbanner__icon{background-color:transparent;box-shadow:none;border-radius:10px;left:24px}
+.appbanner_android .appbanner-button{font-size:14px !important;min-width:12% !important;border:2px solid #209baf !important;padding:1px !important;color:#209baf !important;background:0 !important;border-radius:0 !important;box-shadow:none !important;height:29px !important;width:78px !important;top:20px !important}
+.appbanner_android .appbanner-button :hover,.appbanner_android .appbanner-button :active{background:0 !important}
+.appbanner_android .appbanner-button .appbanner-button__text{text-align:center;display:block;padding:0 10px}
+.appbanner_ios{background:#f2f2f2;box-shadow:none;font-family:'Roboto Medium',sans-serif}
+.appbanner_ios .appbanner__icon{background-color:transparent;box-shadow:none;border-radius:10px;left:24px}
+.appbanner_ios .appbanner-button{font-size:14px !important;min-width:12% !important;border:2px solid #209baf !important;padding:1px !important;color:#209baf !important;background:0 !important;border-radius:0 !important;box-shadow:none !important;height:22px !important;width:55px !important;top:20px !important}
+.appbanner_ios .appbanner-button :hover,.appbanner_ios .appbanner-button :active{background:0 !important}
+.appbanner_ios .appbanner-button .appbanner-button__text{text-align:center;display:block;padding:0 10px}
+.appbanner_show .appbanner{display:block}
+.appbanner_show .fullHt .appbanner{top:-69px}
+.appbanner_show .shiftRt .appbanner{top:-69px}
+.res_Small.res_250 .appbanner__info,.res_Small.res_300 .appbanner__info{left:92px}
+.res_Small.res_250 .appbanner-button,.res_Small.res_300 .appbanner-button{right:5px}
+.res_Small.res_250 .appbanner__title{font-size:.75em}
+.res_Small.res_300 .appbanner__author,.res_Small.res_300 .appbanner__store{font-size:.71em}
+.res_Small.res_250 .appbanner__author,.res_Small.res_250 .appbanner__store{font-size:.71em}
+.notifications .alert-dismissible{margin-bottom:-3px}
+.icon-contentlibrary .icon-contentlibrary-link .heading-2{margin-top:30px;margin-bottom:10px}
+.card .card-detail-image{background-size:cover;position:relative;height:218px;min-width:100%;display:block}
+@media(min-width:768px) and (max-width:1023px){.card .card-detail-image{height:122px}
+}
+@media(min-width:1024px) and (max-width:1279px){.card .card-detail-image{height:162px}
+}
+@media(max-width:375px){.card .card-detail-image{height:192px}
+}
+.card .offer-header{height:56px}
+@media(min-width:768px) and (max-width:1023px){.card .pad .text-align-center .margin-b .btn{min-width:10.25rem}
+}
+.carousel-inner{min-height:inherit !important}
+.carousel-container{position:relative}
+@media(max-width:767px){.carousel-new{min-height:370px !important}
+}
+.carousel-new .carousel-inner li{padding:unset !important}
+@media(max-width:767px){.carousel-new .carousel-inner{min-height:370px !important}
+}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.carousel-inner .hero .homepage-hero-content{margin-left:-40px !important}
+}
+.carousel-item .hp-tagline.hidden-md-up{padding-bottom:1.25rem !important;margin-bottom:1.25rem !important}
